@@ -4,31 +4,84 @@
     "name": "Dr. Lucio Heriberto Sosa Cerda",
     "role": "Experto en Derecho Corporativo y Fiscal",
     "bio": "Abogado de la entonces Administración Local Jurídica de Villahermosa, del Servicio Administración Tributaria, de la SHCP, Gobierno de la República. Delegado fundador de la Procuraduría de la Defensa del Contribuyente en el Estado de Tabasco, Gobierno Federal, E.U.M. Fundador del Capitulo Tabasco del Centro Mexicano de Estudios de lo Penal Tributario, A.C. Docente de Nivel Posgrado de la Maestría en Administración y Derecho Fiscal de la Universidad Autónoma de Ciudad del Carmen, Campeche, Universidad del Valle de México y otras. Miembro de la Academia Mexicana de Derecho Fiscal, Miembro de número de la International Fiscal Association (IFA-MEXICO)",
-    "bio1": "Abogado con amplia experiencia en derecho fiscal y administración pública, fundador de instituciones clave en Tabasco",
-    "image": "/imgs/Dr-Lucio.jpg"
+    "image": "/imgs/Dr-Lucio.jpg",
+    "infoBox": [
+      "Originario de Monterrey, Nuevo León, Licenciado en Ciencias Jurídicas, en la cual se tituló por Mérito Académico, al haber obtenido el promedio máximo universitario. Experto en Derecho Corporativo y Fiscal, continuando con su preparación académica, en noviembre del 2009, presentó el examen de grado de Doctor en Derecho ante las más altas autoridades académicas del Estado de Puebla, obteniendo el grado de Doctor en Derecho con mención honorífica, con la tesis “El Federalismo Hacendario como garantía democrática en las políticas públicas de México”.",
+      " ", "PREMIOS RECIBIDOS",
+      "- “PREMIO AL MÉRITO ACADÉMICO EN CIENCIAS JURÍDICAS” otorgado por la Universidad Regiomontana, A.C.", "- “PREMIO EXCELENCIA ACADÉMICA UNIVERSITARIA” otorgado por la Federación de Colegios Profesionales del Estado de Nuevo León, A.C.", "- “MEDALLA SANTIAGO ROEL MELO” otorgada por el H. Colegio de Abogados de Monterrey, A.C."
+    ]
   },
   {
     "id": "2",
     "name": "L.C.P. Abdy Abigail López Montuy",
     "role": "Gerente Contable/Administradora de Consultoría Fiscal y Financiera",
     "bio": "Licenciada en Contaduría Pública, egresada de la Facultad de Contaduría y Administración de la Universidad del Sur – Tuxtla Gutiérrez, Chiapas. (Generación 2018-2021). Principios y Valores: Rectitud; Probidad; Honestidad; Dignidad; Sinceridad; Imparcialidad; Desinterés; y Actuación si prejuicios en todos los asuntos que corresponden al campo de su actuación profesional.",
-    "bio1": "Una mujer profesionista con valores muy altos, enfocada en lograr un desarrollo profesional",
-    "image": "/imgs/Lic-Abigail.jpg"
+    "image": "/imgs/Lic-Abigail.jpg",
+    "infoBox": [
+      "Una mujer profesionista con valores muy altos, enfocada en lograr un desarrollo profesional, centrada en aumentar su productividad con la implementación de diversas habilidades en su área laboral. Sus áreas de interés se centran en el control interno y/o cumplimiento de compromisos y presupuestos, mejoras relacionadas con derechos y deberes en materia tributaria, contable y de administración de empresas, gestión de la utilización de los recursos de la empresa y controles internos eficientes y control de sus procesos."
+     ]
+    
   },
   {
     "id": "3",
     "name": "C.P. Alberto J. Rodríguez Pelayo",
     "role": "Administrador de consultoría Fiscal y Financiera",
     "bio": "Licenciado en Contaduría, egresado de la Facultad de Contaduría y Administración por la Universidad Nacional Autónoma de México – Ciudad de México. (Generación 1976 – 1980) Principios y Valores: Rectitud; Probidad; Honestidad; Dignidad; Sinceridad; Imparcialidad; Desinterés; y Actuación si prejuicios en todos los asuntos que corresponden al campo de su actuación profesional.",
-    "bio1": "Licenciado en Contaduría con experiencia en evaluación y gestión de financiamiento estructurado y capital de trabajo para empresas.",
-    "image": "/imgs/Lic-Alberto.PNG"
+    "image": "/imgs/Lic-Alberto.PNG",
+    "infoBox": [
+      "Licenciado en Contaduría, cuenta entre sus experiencias con amplios conocimientos en la evaluación y determinación de líneas de financiamiento Estructurado y de Capital de Trabajo para las empresas, donde ha preparado numerosos estudios de evaluación de crédito de empresas, como son de la industria petrolera, turismo y de servicios.",
+      "Cuenta con un Diplomado en Evaluación de Riesgos por el Tecnológico de Monterrey, Campus Nuevo León, además se ha distinguido como Servidor Público del Poder Judicial de la Federación Segundo Circuito (Estado de México) como Perito en la Materia de Auditoria y Finanzas desde el año de 2005."
+    ]
   },
   {
     "id": "4",
     "name": "Lic. Yair E. Torres Alcázar",
     "role": "Asociado de Litigio Laboral y Seguridad Social",
     "bio": " Licenciado en Derecho, con más de 5 años de experiencia, en Litigio en materia Laboral. Ofrece asesoría y seguimiento previo a los procesos del Ministerio de Trabajo, negociaciones y conciliaciones de asuntos laborales individuales y colectivos, representación e intervención en demandas ante tribunales laborales. Diseñador de estrategias de defensa para obtención de resultados exitosos en juicios. Cuenta con especialidad en Litigio en materia de Seguridad Social en los que se vean involucrados nuestros clientes.",
-    "bio1": "Licenciado en Derecho, con más de 5 años de experiencia, en Litigio en materia Laboral. ",
-    "image": "/imgs/Lic-Yair.PNG"
-  }
+    "image": "/imgs/Lic-Yair.PNG",
+    "infoBox": ["Cuenta con más de 5 años de experiencia en Litigio en materia Laboral. Ofrece asesoría y seguimiento previo a los procesos del Ministerio de Trabajo, negociaciones y conciliaciones de asuntos laborales individuales y colectivos, representación e intervención en demandas ante tribunales laborales. Diseñador de estrategias de defensa para obtención de resultados exitosos en juicios. Cuenta con especialidad en Litigio en materia de Seguridad Social en los que se vean involucrados nuestros clientes."]
+  },
+    {
+    "id": "5",
+    "name": "Ing Héctor Osiel Sosa De La Fuente",
+    "role": "Administrador de Tecnologías de la Información",
+    "bio": "Profesional responsable de la operación, mantenimiento y mejora continua de los sistemas tecnológicos dentro de la organización. Como Administrador de TI, Héctor Osiel Sosa de la Fuente lidera la gestión de infraestructura informática, redes, soporte técnico, seguridad digital y administración de software y hardware, asegurando la continuidad operativa y la eficiencia tecnológica en los procesos empresariales.",
+    "image": "/imgs/Ing-Héctor.jpg",
+    "infoBox": ["Supervisa la implementación de soluciones tecnológicas alineadas con las necesidades del negocio, brindando asistencia a usuarios internos, ejecutando planes de respaldo y recuperación de información, y promoviendo prácticas de ciberseguridad para la protección de datos sensibles.", "Su desempeño está respaldado por valores como la Responsabilidad, Confidencialidad, Compromiso con la Innovación, Resolución de Problemas, Disciplina, y Orientación al Servicio, principios que garantizan una gestión confiable, ágil y segura de los recursos tecnológicos de la empresa."]
+  },
+    {
+    "id": "6",
+    "name": "Lic Juan Jose Sosa de la Fuente",
+    "role": "Auxiliar Contable",
+    "bio": "Profesional comprometido con el apoyo operativo en los procesos contables y administrativos de la organización. Como Auxiliar Contable, Juan José Sosa de la Fuente participa en el registro, control y análisis de operaciones financieras, asegurando la correcta integración de pólizas contables, conciliaciones bancarias, manejo de cuentas por pagar y por cobrar, así como el cumplimiento de las obligaciones fiscales en coordinación con el equipo contable.",
+    "image": "/imgs/Lic-Juan.jpg",
+    "infoBox": ["Su labor es clave para mantener la integridad y orden de la información financiera, brindando soporte en la elaboración de estados contables y reportes requeridos por la dirección o por autoridades fiscales. Se distingue por su atención al detalle y su disposición al trabajo en equipo.", "Juan José ejerce sus funciones con base en los valores de Responsabilidad, Integridad, Precisión, Confidencialidad, Respeto y Disciplina, cualidades que fortalecen la confianza en su labor y aportan valor al cumplimiento de los objetivos contables de la empresa."]
+  },
+    {
+    "id": "7",
+    "name": "Lic Luis Fernando Velázquez Valencia",
+    "role": "Coordinador en Impuestos",
+    "bio": "Profesional en el área fiscal, con sólida experiencia en la coordinación y supervisión de estrategias tributarias orientadas al cumplimiento normativo y a la optimización de cargas f iscales para personas físicas y morales. Su labor se centra en la correcta aplicación de las disposiciones fiscales vigentes, liderando procesos de cálculo, declaración y revisión de impuestos federales y estatales, así como en la atención de auditorías y requerimientos por parte de las autoridades hacendarias.",
+    "image": "/imgs/Lic-Luis.jpg",
+    "infoBox": ["Como Coordinador en Impuestos, destaca por su capacidad analítica, liderazgo técnico y enfoque estratégico para detectar áreas de riesgo fiscal y proponer soluciones preventivas y correctivas. Su rol implica también la implementación de controles internos eficientes, seguimiento de reformas fiscales y asesoría integral en la toma de decisiones financieras con impacto tributario.", "Luis Fernando ejerce su función bajo los principios de Responsabilidad, Ética Profesional, Integridad, Transparencia, Justicia Fiscal, Diligencia, y Respeto por el marco legal, valores fundamentales que garantizan un desempeño confiable y profesional en beneficio de la organización y sus clientes."]
+  },
+    {
+    "id": "8",
+    "name": "Lic Paula Crespo Mijangos",
+    "role": "Auxiliar Contable - Área de Administración de Nómina",
+    "bio": "Profesional en desarrollo con enfoque en la gestión contable y administrativa del área de nómina. Como Auxiliar Contable, Paula Crespo Mijangos colabora activamente en la elaboración y revisión de los procesos relacionados con el cálculo de percepciones y deducciones, integración de incidencias, conciliación de cifras y cumplimiento de obligaciones fiscales y de seguridad social.",
+    "image": "/imgs/Lic-Paula.png",
+    "infoBox": ["Su participación contribuye al funcionamiento preciso y oportuno del ciclo de nómina, garantizando el apego a las disposiciones laborales y fiscales aplicables. Apoya también en la preparación de reportes contables y administrativos, así como en la organización documental y manejo de bases de datos de personal.", "Paula desempeña sus funciones con un alto sentido de Responsabilidad, Orden, Discreción, Honestidad, Compromiso, y Respeto, cualidades indispensables en un entorno donde la precisión, la confidencialidad y el trato humano son fundamentales."]
+  },
+    {
+    "id": "9",
+    "name": "Lic Viviana Del Valle Cabello Espinoza",
+    "role": "Coordinadora de Recursos Humanos",
+    "bio": "Profesional encargada de liderar y gestionar los procesos estratégicos del capital humano dentro de la organización. Como Coordinadora de Recursos Humanos, Viviana Cabello Espinoza impulsa el desarrollo integral del personal mediante la implementación de políticas efectivas de reclutamiento, selección, capacitación, evaluación del desempeño y clima laboral, con un enfoque centrado en el bienestar organizacional y la productividad.",
+    "image": "/imgs/Lic-Viviana.jpg",
+    "infoBox": ["Su papel resulta clave en la alineación de los objetivos corporativos con la gestión del talento, promoviendo ambientes laborales saludables, la retención de perfiles clave y el cumplimiento de la normatividad laboral vigente. Su experiencia también abarca la mediación de conflictos internos, diseño de planes de carrera y fortalecimiento de la cultura organizacional.", "Viviana se distingue por ejercer sus funciones con base en valores como la Empatía, Confidencialidad, Justicia, Respeto, Comunicación Asertiva, Liderazgo Ético y Compromiso con las personas, pilares que consolidan su rol como vínculo entre la empresa y su equipo de trabajo."]
+    }
+
+
 ]
+

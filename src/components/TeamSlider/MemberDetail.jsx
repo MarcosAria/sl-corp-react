@@ -40,12 +40,21 @@ export default function MemberDetail() {
             )}
 
             <button className="contact-button">Solicitar consulta</button>
-            {/* El siguiente Link regresa a la página principal del equipo */}
             <Link to="/equipo" className="back-button">
               <FaArrowLeft /> Volver al equipo
             </Link>
           </div>
         </div>
+
+        {/* Nueva sección de información adicional */}
+        {member.infoBox && (
+          <div className="info-box">
+            <h3>Más sobre {member.name}</h3>
+            {member.infoBox.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

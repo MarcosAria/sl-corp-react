@@ -1,38 +1,53 @@
-# SL Corp - Sitio Web Corporativo  
+# SL Corp – Sitio Web Corporativo y Carrusel de Equipo
 
 [![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-4.4.0-yellow)](https://vitejs.dev/)
 
-Sitio web oficial de SL Corp desarrollado con React y Vite. Ofrece información sobre servicios fiscales y corporativos.
+Sitio web corporativo de **SL Corp**, desarrollado con **React** y **Vite**. Contiene secciones informativas, un diseño responsivo y un carrusel dinámico con navegación individual a detalle de cada miembro del equipo.
 
-## Características principales  
-- Estructura modular con componentes reutilizables  
-- Diseño intuitivo y responsivo  
-- Conexión a datos dinámicos mediante JSON Server  
-- Efectos interactivos con React Hooks  
+---
 
-## Descripción del Funcionamiento
-Este sitio web corporativo está desarrollado utilizando React de forma modular. Cada sección del sitio (por ejemplo, el hero, los servicios, la misión y visión, entre otras) está encapsulada dentro de componentes reutilizables, lo que facilita el mantenimiento, la escalabilidad y la organización del código.
+## 🧩 Características principales
 
-La información dinámica, como los servicios ofrecidos por la empresa, se obtiene mediante una petición fetch a un archivo JSON simulado con JSON Server. Esta separación entre los datos y la lógica de presentación permite modificar el contenido fácilmente sin tener que tocar el código de los componentes.
+- Componente **TeamSlider** con navegación a detalles (`/member/:id`)
+- Estructura **modular** y organizada por componentes
+- Conexión a datos dinámicos mediante **JSON Server**
+- Diseño **responsivo** adaptable a todos los dispositivos
+- Estilos encapsulados con **CSS Modules**
+- Uso de **React Hooks** (`useState`, `useEffect`) para lógica interactiva
+- Navegación interna usando **React Router**
 
-La interfaz es responsiva, adaptándose correctamente a distintos tamaños de pantalla. En dispositivos móviles, la navegación incluye un menú tipo hamburguesa implementado con el hook useState para manejar su visibilidad de forma interactiva.
+---
 
-Además, se emplearon hooks como useEffect para cargar datos dinámicos y manejar efectos secundarios dentro de los componentes, y se estructuró el proyecto siguiendo buenas prácticas de organización de carpetas, estilos y lógica de negocio.
+## 🚀 Descripción del Funcionamiento
 
+### 🧑‍🤝‍🧑 Carrusel TeamSlider
 
-## Tecnologías utilizadas  
-- **Frontend**: React 18 + Vite  
-- **Estilos**: CSS Modules  
-- **Íconos**: React Icons (Font Awesome)  
-- **Mock API**: JSON Server  
+El componente `TeamSlider` muestra tarjetas con información de cada miembro del equipo (foto, nombre, rol). Cada tarjeta incluye un botón que lleva a una página de detalle usando React Router. Los datos se consumen desde un archivo JSON (`teamData.json`) simulado como API mediante **JSON Server**.
 
-##  Instalación  
-1. Clona el repositorio:  
-    ```bash
-    git clone https://github.com/tu-usuario/sl-corp-react.git
-    cd sl-corp-react
-    ```
+### 🏢 Sitio Web Corporativo
+
+El resto del sitio está dividido en secciones como *servicios, misión y visión, testimonios*, etc., organizadas como componentes reutilizables. El diseño es intuitivo y adaptable, con menús interactivos y uso extensivo de hooks para cargar y manejar datos dinámicos.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **React 18** – Biblioteca principal para construir la UI
+- **Vite** – Herramienta de desarrollo rápida
+- **React Router** – Navegación por rutas dinámicas
+- **CSS Modules** – Estilos locales encapsulados
+- **React Icons** – Íconos vectoriales
+- **JSON Server** – Mock API para datos locales
+
+---
+
+## 📦 Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/sl-corp-react.git
+   cd sl-corp-react
 
 2. Instala dependencias:
     ```bash
@@ -48,35 +63,40 @@ Además, se emplearon hooks como useEffect para cargar datos dinámicos y maneja
 
 ## Estructura del proyecto
 A continuación, se muestra la estructura del directorio del proyecto, destacando los archivos y carpetas clave:
+
 ```bash
-mi-app-react/
+sl-corp-react/
 ├── data/
-│   └── services.json                # Datos dinámicos simulados para JSON Server
-├── node_modules/                    # Módulos de Node (generado por npm)
+│   └── services.json                # Servicios simulados con JSON Server
 ├── public/
-│   └── IMG                          # Carpeta con las imágenes
+│   ├── IMG/                         # Imágenes del sitio
+│   ├── imgs/                        # Imágenes del equipo
+│   └── teamData.json                # Datos de miembros del equipo
 ├── src/
-│   ├── components/                  # Componentes reutilizables
+│   ├── components/
 │   │   ├── AboutUs/
 │   │   ├── Footer/
 │   │   ├── Header/
 │   │   ├── Hero/
+│   │   ├── Layout/
 │   │   ├── MissionVision/
 │   │   ├── ServiceCard/
 │   │   ├── Services/
 │   │   ├── ServicesOverview/
-│   │   ├── TeamSlide/
+│   │   ├── TeamSlider/
 │   │   └── Testimonials/
 │   ├── pages/
-│   │   └── Home/
-│   ├── App.jsx                      # Componente raíz de la app
-│   ├── main.jsx                     # Punto de entrada de React
-│   ├── index.css                    # Estilos globales
-├── .gitignore                       # Ignora node_modules, dist, etc.
-├── index.html                       # HTML base para Vite
-├── package.json                     # Configuración del proyecto y dependencias
-├── vite.config.js                   # Configuración de Vite
-└── README.md                        # Documentación del proyecto
+│   │   ├── Home/
+│   │   ├── MemberDetail/           # Página individual por miembro
+│   │   └── TeamSliderPage/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
 ```
 
 ## Conexión a Datos
@@ -110,96 +130,8 @@ Otro reto importante fue la sección de servicios, donde intentamos trabajar con
 
 Gracias al proceso de prueba y error, al apoyo de la documentación en el curso y al hecho de tener un diseño base, pudimos superar estas barreras y completar el proyecto.
 
+SLIDER:
 
-
-
-
-
-
-TeamSlider – Carrusel de Miembros del Equipo SL Corp
-
-
-## Características principales  
-- Estructura modular   
-- Diseño intuitivo y responsivo  
-- Conexión a datos dinámicos mediante JSON Server  
-- Efectos interactivos con React Hooks
-- Navegación a una página individual por miembro (`/member/:id`)
-- Efectos interactivos con React Hooks  
-
-
-## Descripción del Funcionamiento
-El componente TeamSlider es un carrusel responsivo desarrollado con React que muestra dinámicamente tarjetas de miembros del equipo, cada una con su nombre, cargo y fotografía. Permite navegar a una página individual de detalles mediante React Router al hacer clic en un botón dentro de cada tarjeta. Está diseñado con estructura modular, buenas prácticas y estilos adaptables para funcionar correctamente en dispositivos móviles, tablets y pantallas grandes. Además, puede integrarse fácilmente en otras páginas como parte de una web corporativa, consumiendo datos desde un archivo JSON.
-
-
-
-## Tecnologías utilizadas
-
-- **React** – Biblioteca principal para construir la interfaz de usuario.
-- **React Router** – Para la navegación entre páginas (Home, Slider, Detalles).
-- **Vite** – Herramienta de desarrollo rápida y moderna para React.
-- **CSS Modules** – Para estilos encapsulados y reutilizables.
-
-
-
-##  Instalación  
-1. Clona el repositorio:  
-    ```bash
-    git clone https://github.com//sl-corp-react.git
-    cd sl-corp-react
-  
-2. Instala dependencias:
-    ```bash
-    npm install
-    ```
-
-3. Inicia el servidor de desarrollo:
-    ```bash
-    npm run dev
-    ```
- 
-
-## Estructura del proyecto
-A continuación, se muestra la estructura del directorio del proyecto, destacando los archivos y carpetas clave:
-```bash
-mi-app-react/
-├── data/
-│   └── services.json                # Datos dinámicos simulados para JSON Server
-├── node_modules/                    # Módulos de Node (generado por npm)
-├── public/
-│   ├── IMG                          # Carpeta con las imágenes
-│   ├── imgs                         # Carpeta con imágenes del equipo 
-│   └── teamData.json                # Datos dinámicos JSON para slider   
-│                 
-├── src/
-│   ├── components/                  # Componentes reutilizables
-│   │   ├── AboutUs/
-│   │   ├── Footer/
-│   │   ├── Header/
-│   │   ├── Hero/
-│   │   ├── MissionVision/
-│   │   ├── ServiceCard/
-│   │   ├── Layout/
-│   │   ├── Services/
-│   │   ├── ServicesOverview/
-│   │   ├── TeamSlide/
-│   │   ├── TeamSlider/
-│   │   └── Testimonials/
-│   ├── pages/
-│   │   ├── Home/
-│   │   └── TeamSliderPage/
-│   ├── App.jsx                      # Componente raíz de la app
-│   ├── main.jsx                     # Punto de entrada de React
-│   ├── index.css                    # Estilos globales
-├── .gitignore                       # Ignora node_modules, dist, etc.
-├── index.html                       # HTML base para Vite
-├── package.json                     # Configuración del proyecto y dependencias
-├── vite.config.js                   # Configuración de Vite
-└── README.md                        # Documentación del proyecto
-```
-
-
-## Retos Enfrentados y Soluciones Implementadas
 Este carrusel de equipo fue una de nuestras primeras experiencias trabajando con React de forma modular y estructurada. Uno de los principales retos fue organizar los componentes para que el slider conviviera dentro de una arquitectura escalable, manteniendo una buena separación de responsabilidades y un flujo de datos claro.
 
 Implementar la navegación entre el carrusel principal y las páginas individuales para cada miembro del equipo también representó un desafío. Para resolverlo, integramos react-router-dom, lo cual nos permitió crear rutas dinámicas sin comprometer la estructura general del sitio. La solución incluyó configurar el componente principal (App.jsx) con un sistema de rutas que mantiene elementos globales como la barra de navegación y el pie de página visibles en todas las vistas.
@@ -207,8 +139,6 @@ Implementar la navegación entre el carrusel principal y las páginas individual
 Otro aspecto clave fue hacer que el slider fuera completamente responsivo. Utilizamos CSS modular y media queries para adaptar el diseño a todos los dispositivos, además de React Hooks como useState y useEffect para manejar los datos del equipo de manera dinámica, simulando una llamada a una API con un archivo JSON local.
 
 A través de prueba y error, lectura de documentación y una base de diseño clara, logramos superar los desafíos técnicos y completar un componente atractivo, funcional y adaptable para futuros proyectos.
-
-
 
 
 

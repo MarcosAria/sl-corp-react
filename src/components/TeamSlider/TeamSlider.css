@@ -18,12 +18,14 @@
   color: #282D40;
   margin-bottom: 0.5rem;
   line-height: 1.2;
+    font-family: 'robot flex', sans-serif;
 }
 
 .slider-header h2 span {
   color: #FECF40;
   position: relative;
   display: inline-block;
+    font-family: 'robot flex', sans-serif;
 }
 
 .slider-header h2 span::after {
@@ -35,6 +37,7 @@
   height: 3px;
   background: linear-gradient(90deg, #FECF40, transparent);
   border-radius: 3px;
+
 }
 
 .slider-header p {
@@ -126,7 +129,7 @@
 .member-info h3 {
   margin: 0 0 0.5rem;
   color: #2d3748;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 800;
   font-family: "roboto flex", sans-serif;
 }
