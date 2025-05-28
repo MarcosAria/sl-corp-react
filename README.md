@@ -145,7 +145,7 @@ El componente TeamSlider es un carrusel responsivo desarrollado con React que mu
 ##  Instalación  
 1. Clona el repositorio:  
     ```bash
-    git clone https://github.com/tu-usuario/sl-corp-react.git
+    git clone https://github.com//sl-corp-react.git
     cd sl-corp-react
   
 2. Instala dependencias:
@@ -198,27 +198,6 @@ mi-app-react/
 └── README.md                        # Documentación del proyecto
 ```
 
-## Conexión a Datos
-La aplicación obtiene información dinámica (como los servicios ofrecidos) utilizando **fetch** para consumir datos desde un archivo JSON simulado con **JSON Server**. Esto permite separar la lógica de presentación de los datos, facilitando la actualización del contenido sin modificar los componentes.
-
-**Pasos para simular la API:**
-1. Instala JSON Server de forma global (si no lo tienes):
-  ```bash
-  npm install -g json-server
-  ```
-2. Ejecuta el servidor apuntando al archivo de datos:
-  ```bash
-  json-server --watch data/services.json --port 3000
-  ```
-3. Accede a los datos desde tu aplicación React usando:
-  ```js
-  fetch('http://localhost:3000/services')
-    .then(response => response.json())
-    .then(data => setServices(data));
-  ```
-
-Esto permite que los componentes de React consuman y muestren datos de manera dinámica, simulando una API real durante el desarrollo.
-
 
 ## Retos Enfrentados y Soluciones Implementadas
 Este carrusel de equipo fue una de nuestras primeras experiencias trabajando con React de forma modular y estructurada. Uno de los principales retos fue organizar los componentes para que el slider conviviera dentro de una arquitectura escalable, manteniendo una buena separación de responsabilidades y un flujo de datos claro.
@@ -240,5 +219,3 @@ Desarrollado por Maribel Paulina Sánchez Jiménez, Marcos Daniel Arias Cerino, 
 Este proyecto está bajo la licencia MIT.
 
 
-#   P A G I N A - S L C O R - V 4 - R E A C T  
- 
