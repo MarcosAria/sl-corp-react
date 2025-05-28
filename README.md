@@ -46,7 +46,7 @@ El resto del sitio está dividido en secciones como *servicios, misión y visió
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/sl-corp-react.git
+   git clone https://github.com/MarcosAria/sl-corp-react.git
    cd sl-corp-react
 
 2. Instala dependencias:
